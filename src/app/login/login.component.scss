@@ -1,0 +1,256 @@
+  
+#auth{height:100vh;overflow-x:hidden}
+
+#auth #auth-right{width:325px; height: 275px; margin-top: 13rem; margin-left: 11rem;}
+#auth #auth-left{padding:5rem 10rem }
+#auth #auth-left .auth-title{font-size:3rem;margin-bottom:1rem}
+#auth #auth-left .auth-subtitle{color:#a8aebb;font-size:1.7rem;line-height:2.5rem}
+#auth #auth-left .auth-logo{margin-bottom:7rem}
+#auth #auth-left .auth-logo img{height:2rem}
+@media screen and (max-width:767px){#auth #auth-left{padding:5rem}}
+@media screen and (max-width:576px){#auth #auth-left{padding:5rem 3rem}}
+
+.bi-person-badge::before { content: "\f4ac"; }
+.form-group{
+    margin-bottom:.7rem
+    }
+    .form-group label{
+    color:rgba(35,28,99,.7);font-weight:600
+    }
+    .form-group small{
+    font-size:.7rem
+    }
+    .form-group.with-title{
+    position:relative
+    }
+    .form-group.with-title label{
+    background-color:#e9ecef;font-size:.6rem;left:0;padding:5px;position:absolute;top:0;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;width:100%
+    }
+    .form-group.with-title .form-control,.form-group.with-title dataTable-input{
+    padding-top:2rem
+    }
+    .form-group.with-title .form-control:focus~label,.form-group.with-title dataTable-input:focus~label{
+    border-left:1px solid #435ebe;border-right:1px solid #435ebe;border-top:1px solid #435ebe
+    }
+    .form-group[class*=has-icon-].has-icon-left .form-control{
+    padding-left:2.5rem
+    }
+    .form-group[class*=has-icon-].has-icon-left .form-control-icon{
+    left:0
+    }.form-group[class*=has-icon-].has-icon-right .form-control{
+    padding-right:2.5rem
+    }
+    .form-group[class*=has-icon-].has-icon-right .form-control-icon{
+    right:0
+    }
+    .form-group[class*=has-icon-] .form-control:focus~.form-control-icon i,.form-group[class*=has-icon-] .form-control:focus~.form-control-icon svg{
+    color:#5a8dee
+    }
+    .form-group[class*=has-icon-] .form-control.form-control-xl{
+    padding-left:3rem
+    }
+    .form-group[class*=has-icon-] .form-control.form-control-xl~.form-control-icon i{
+    font-size:1.6rem
+    }
+    .form-group[class*=has-icon-] .form-control.form-control-xl~.form-control-icon i:before{
+    color:#a6a8aa
+    }
+    .form-group[class*=has-icon-] .form-control-icon{
+    padding:0 .6rem;position:absolute;top:50%;transform:translateY(-50%)}.form-group[class*=has-icon-] .form-control-icon i,.form-group[class*=has-icon-] .form-control-icon svg{color:#adb5bd;font-size:1.2rem;width:1.2rem
+    }
+    .form-group[class*=has-icon-] .form-control-icon i:before,.form-group[class*=has-icon-] .form-control-icon svg:before{
+    vertical-align:super;
+    align-content: center;
+    }
+    .form-control.form-control-xl{
+    font-size:1.2rem;padding:.85rem 1rem
+    }
+    .form-check .form-check-input[class*=bg-]{
+    border:0
+    }
+    .form-check .form-check-input:focus{
+    box-shadow:none
+    }
+    .form-check .form-check-input.form-check-primary{
+    background-color:#435ebe;border-color:#435ebe
+    }
+    .form-check .form-check-input.form-check-primary:not(:checked){
+    background-color:transparent;border:1px solid #212529
+    }
+    .form-check .form-check-input.form-check-primary.form-check-glow{
+    box-shadow:0 0 5px #697ecb
+    }
+    .form-check .form-check-input.form-check-primary.form-check-glow:not(:checked){
+    box-shadow:none
+    }
+    .form-check .form-check-input.form-check-secondary{
+    background-color:#6c757d;border-color:#6c757d
+    }
+    .form-check .form-check-input.form-check-secondary:not(:checked){
+    background-color:transparent;border:1px solid #ced4da
+    }
+    .form-check .form-check-input.form-check-secondary.form-check-glow{
+    box-shadow:0 0 5px #868e96
+    }
+    .form-check .form-check-input.form-check-secondary.form-check-glow:not(:checked){
+    box-shadow:none
+    }
+    .form-check .form-check-input.form-check-success{
+    background-color:#198754;border-color:#198754
+    }
+    .form-check .form-check-input.form-check-success:not(:checked){
+    background-color:transparent;border:1px solid #ced4da
+    }
+    .form-check .form-check-input.form-check-success.form-check-glow{
+    box-shadow:0 0 5px #21b26f
+    }
+    .form-check .form-check-input.form-check-success.form-check-glow:not(:checked){
+    box-shadow:none
+    }
+    .form-check .form-check-input.form-check-info{
+    background-color:#0dcaf0;border-color:#0dcaf0
+    }
+    .form-check .form-check-input.form-check-info:not(:checked){
+    background-color:transparent;border:1px solid #ced4da
+    }
+    .form-check .form-check-input.form-check-info.form-check-glow{
+    box-shadow:0 0 5px #3cd5f4
+    }
+    .form-check .form-check-input.form-check-info.form-check-glow:not(:checked){
+    box-shadow:none
+    }
+    .form-check .form-check-input.form-check-warning{
+    background-color:#ffc107;border-color:#ffc107
+    }
+    .form-check .form-check-input.form-check-warning:not(:checked){
+    background-color:transparent;border:1px solid #ced4da
+    }
+    .form-check .form-check-input.form-check-warning.form-check-glow{
+    box-shadow:0 0 5px #ffce3a
+    }
+    .form-check .form-check-input.form-check-warning.form-check-glow:not(:checked){
+    box-shadow:none
+    }
+    .form-check .form-check-input.form-check-danger{
+    background-color:#dc3545;border-color:#dc3545
+    }
+    .form-check .form-check-input.form-check-danger:not(:checked){
+    background-color:transparent;border:1px solid #212529
+    }
+    .form-check .form-check-input.form-check-danger.form-check-glow{
+    box-shadow:0 0 5px #e4606d
+    }
+    .form-check .form-check-input.form-check-danger.form-check-glow:not(:checked){
+    box-shadow:none
+    }
+    .form-check .form-check-input.form-check-light{
+    background-color:#f8f9fa;border-color:#f8f9fa
+    }
+    .form-check .form-check-input.form-check-light:not(:checked){
+    background-color:transparent;border:1px solid #ced4da
+    }
+    .form-check .form-check-input.form-check-light.form-check-glow{
+    box-shadow:0 0 5px #212529
+    }
+    .form-check .form-check-input.form-check-light.form-check-glow:not(:checked){
+    box-shadow:none
+    }
+    .form-check .form-check-input.form-check-dark{
+    background-color:#212529;border-color:#212529
+    }
+    .form-check .form-check-input.form-check-dark:not(:checked){
+    background-color:transparent;border:1px solid #212529
+    }
+    .form-check .form-check-input.form-check-dark.form-check-glow{
+    box-shadow:0 0 5px #383f45
+    }
+    .form-check .form-check-input.form-check-dark.form-check-glow:not(:checked){
+    box-shadow:none
+    }
+    .form-check.form-check-sm .form-check-input{
+    height:.9rem;margin-top:.3em;width:.9rem}
+    .form-check.form-check-sm label{font-size:.7rem}
+    .form-check.form-check-lg .form-check-input{height:1.5rem;margin-top:.3em;width:1.5rem}
+    .form-check.form-check-lg label{font-size:1rem}
+    .form-check.form-check-primary .form-check-input{background-color:#435ebe;border-color:#435ebe}
+    .form-check.form-check-secondary .form-check-input{background-color:#6c757d;border-color:#6c757d}
+    .form-check.form-check-success .form-check-input{background-color:#198754;border-color:#198754}
+    .form-check.form-check-info .form-check-input{background-color:#0dcaf0;border-color:#0dcaf0}
+    .form-check.form-check-warning .form-check-input{background-color:#ffc107;border-color:#ffc107}
+    .form-check.form-check-danger .form-check-input{background-color:#d61620;border-color:#970d14}
+    .form-check.form-check-light .form-check-input{background-color:#f8f9fa;border-color:#f8f9fa}
+    .form-check.form-check-dark .form-check-input{background-color:#212529;border-color:#212529}
+
+    .font-bold{font-weight:700; color: #d3111b;}
+
+    .btn .badge{
+        border-radius:50%;margin-left:5px
+        }
+        .btn .badge.bg-transparent{
+        background-color:hsla(0,0%,100%,.25)!important;color:#fff
+        }
+        .btn i,.btn svg{
+        height:16px;width:16px
+        }
+        .btn.icon{
+        padding:.4rem .6rem
+        }
+        .btn.icon svg{
+        height:16px;width:16px
+        }
+        .btn.icon.icon-left svg{
+        margin-right:3px
+        }
+        .btn.icon.icon-right svg{
+        margin-left:3px
+        }
+        .btn.btn-outline-white{
+        border-color:#fff;color:#fff
+        }
+        .btn.btn-outline-white:hover{
+        background-color:#fff;color:#333
+        }
+        .btn.btn-light-primary{
+        background-color:#ebf3ff;color:#002152
+        }
+        .btn.btn-light-secondary{
+        background-color:#e6eaee;color:#181e24
+        }
+        .btn.btn-light-success{
+        background-color:#d2ffe8;color:#00391c
+        }
+        .btn.btn-light-danger{
+        background-color:#ffdede;color:#450000
+        }
+        .btn.btn-light-warning{background-color:#fffdd8;color:#3f3c00}
+        .btn.btn-light-info{
+        background-color:#e6fdff;color:#00474d}
+        .btn.btn-danger,.btn.btn-info,.btn.btn-primary,.btn.btn-secondary,.btn.btn-success,.btn.btn-warning{
+        color:#fff
+        }
+        .btn.btn-light{
+        color:#607080
+        }
+        .btn.btn-dark{
+        color:#fff
+        }
+        .btn-block{
+        width:100%
+        }
+        .btn-group:not(.dropdown) .btn:not([class*=btn-]){
+        border:1px solid #dfe3e7
+        }
+        .btn-group>.btn{
+        border-radius:.267rem
+        }
+        .buttons .btn{
+        margin:0 10px 10px 0
+        }
+
+        h1 {color:rgb(218, 179, 109) ;font-weight:700;line-height:1.2;margin-bottom:.5rem;margin-top:0}
+        h1{font-size:calc(1.375rem + 1.5vw)}
+        h2{color: #d3111b;}
+
+        a:hover{color:#d3111b}
+     a:not([href]):not([class]),a:not([href]):not([class]):hover{color:inherit;text-decoration:none}
+
